@@ -1,0 +1,28 @@
+* {
+    font-family: system-ui;
+    font-variant: small-caps;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#value {
+    font-size: 60px;
+}
+.btn {
+    border: 2px solid #000;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: all .1s, background .5s ease-out;
+    box-shadow: 2px 2px 3px #999;
+}
+.btn:hover {
+    transform: scale(105%);
+    background: #2f2f3f;
+    color: #fff;
+}
